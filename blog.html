@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" type="text/css" href="/css/links.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- // this link with awesome style to put the logo of fb,twitter,youtube and instagram -->
+    <link rel="stylesheet" type="text/css" href="
+    https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.csss">
+    <!-- for the search bar design -->
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+
+    <script src="https://kit.fontawesome.com/c24795123c.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        #blog-head {
+            margin-top: 10px;
+            padding-top: 4px;
+            background-color: white;
+            color: goldenrod;
+            border: 2px;
+            text-align: center;
+        }
+        
+        #blog-head h1 {
+            font-weight: bold;
+        }
+        
+        section {
+            background-color: wheat;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            padding-top: 10px;
+        }
+        
+        .mainsection {
+            width: 1100px;
+            height: 500px;
+            margin-top: 70px;
+        }
+        
+        #blog {
+            display: inline-flexbox;
+        }
+        
+        .blog-row {
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+            grid-auto-rows: minmax(200px, auto);
+            grid-gap: 0em;
+            justify-content: center;
+            padding: 10px;
+        }
+        
+        .blog-box {
+            box-shadow: 2px 13px 15px grey;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        article img {
+            width: 300px;
+            height: 200px;
+            align-items: center;
+            background: grey;
+            padding: 20px;
+            margin: 15px;
+            transition: 0.3s ease-in-out;
+        }
+        
+        article img:hover {
+            transform: rotate(-5deg) scale(1);
+        }
+        
+        article h1 {
+            font-size: 20px;
+            font-weight: normal;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        article h2 {
+            font-size: 20px;
+            font-weight: 900;
+            text-decoration: underline;
+            color: gold;
+        }
+        
+        article footer P {
+            text-align: right;
+            color: gold;
+        }
+        
+        #blog P {
+            font-size: 12px;
+            color: black;
+            font-family: Georgia;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="site-header">
+        <nav>
+            <img src="./img/Demologo.png" width="50" height="50">
+            <div class="logo">
+
+                <h1>Demo Modern Website</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Services</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="search">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
+        </nav>
+
+        <div id="blog-head">
+            <h1>Blog Intelligent Articles</h1>
+        </div>
+
+    </header>
+
+
+
+    <!-- blog body -->
+
+    <section class="mainsection">
+
+        <div id="blog">
+            <div class="blog-row">
+                <div class="blog-box">
+                    <article>
+                        <header>
+                            <img src="./img/mypic.png">
+                            <h1>HOW WERE YOUR BIBLE STUDY MEETINGS THIS JANUARY?</h1>
+                        </header>
+                        <p>This month, we kicked off the Bible study meetings <br> for the year with a very insightful topic:<br> GROWING IN THE WORD. <br> the first part of this outline we defined what</p>
+
+                        <button>READ MORE</button>
+                        <footer>
+                            <p>- written by Delmas</p>
+                        </footer>
+
+                    </article>
+                </div>
+
+                <div class="blog-box">
+                    <article>
+                        <header>
+
+                            <hgroup>
+                                <img src="./img/mypic.png">
+                                <h1>Learning in Progress 2</h1>
+                                <h2>What to learn 2</h2>
+                            </hgroup>
+                        </header>
+                        <p>This is a learning article 2</p>
+                        <footer>
+                            <p>- written by Delmas 2</p>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="blog-box">
+                    <article>
+                        <header>
+                            <hgroup>
+                                <img src="/img/mypic.png">
+                                <h1>Learning in Progress 2</h1>
+                                <h2>What to learn 2</h2>
+                            </hgroup>
+                        </header>
+                        <p>This is a learning article 2</p>
+                        <footer>
+                            <p>- written by Delmas 2</p>
+                        </footer>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="inside">Interested in collaborating or investing? I’m always open to discussing product design work or partnership opportunities.</div>
+
+
+    <!-- <div class="button">
+        <button> <a href="contact.html">Contact</a></button>
+        </div>
+    
+        <footer class="site-footer">
+
+            <div class="font">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i> 
+        
+                </ul>
+            </div>
+    
+            
+            <img src="/img/goldluv.png" width="150", height="150">
+    
+            
+                <p>
+                    © Demo website 2022. All rights reserved
+                </p>
+            
+        </footer> -->
+
+</body>
+
+</html>
